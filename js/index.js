@@ -47,5 +47,6 @@ function addTask() {
   
   /* Крок 14 нижче тут */
   function clearAbout() {
-    document.getElementById("textabout").innerHTML = "";
+    var element = document.getElementById("textabout");
+    element.innerHTML = "";
   }

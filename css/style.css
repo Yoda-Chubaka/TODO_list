@@ -90,7 +90,16 @@ ul {
   input[type="text"] {
     font-size: 18px;
     width: 646px;
-    padding: 10px;
+    padding: 10.3px;
+    border: 0;
+    border-radius: 2px;
+  }
+
+  #input:hover,
+  #input:focus {
+    outline: 0;
+    border-style: none;
+    border-radius: 2px;
   }
   
   input[type="button"] {
