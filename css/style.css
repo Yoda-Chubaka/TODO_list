@@ -42,15 +42,43 @@ ul {
   /* Крок 5 нижче тут */
   .done {
     background-color: green;
+    border: 1px solid rgb(1, 44, 1);
+    border-radius: 4px;
+  }
+
+  .done:hover,
+  .done:focus {
+    background-color: rgb(2, 59, 2);
+    color: white;
+    cursor: pointer;
   }
   
   .remove {
     background-color: red;
+    border: 1px solid rgb(54, 1, 1);
+    border-radius: 4px;
+  }
+
+  .remove:hover,
+  .remove:focus {
+    background-color: rgb(77, 2, 2);
+    color: white;
+    cursor: pointer;
   }
 
   .important {
     background-color: lightblue;
+    border: 1px solid rgb(3, 34, 44);
+    border-radius: 4px;
   }
+
+  .important:hover,
+  .important:focus {
+    background-color: rgb(4, 58, 77);
+    color: white;
+    cursor: pointer;
+  }
+
   /* позначити завдання як виконане */
   /* Крок 6 нижче тут */
   li.finished {
@@ -73,30 +101,69 @@ ul {
   #addButton {
     padding: 10px;
     min-width: 100px;
+    border: 0;
+    border-radius: 2px;
   }
+
+  #addButton:hover,
+  #addButton:focus {
+    background-color: rgb(99, 58, 133);
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    border-style: none;
+    border-radius: 2px;
+  }
+
   
   /* Крок 10 нижче тут */
   .aboutcolor {
-    background-color: yellow;
+    background-color: rgb(43, 3, 88);
   }
   
   /* Крок 12 нижче тут */
   #divabout {
     width: 300px;
     margin-bottom: 15px;
+    border-radius: 4px;
   }
 
   #textabout {
     font-size: 20px;
-    margin: 10px;
+    padding-left: 10px;
+    color: white;
   }
 
   #aboutButton {
     padding: 10px;
     min-width: 100px;
+    border: 0;
+    border-radius: 2px;
+  }
+
+  #aboutButton:hover,
+  #aboutButton:focus {
+    background-color: rgb(99, 58, 133);
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    border-style: none;
+    border-radius: 2px;
   }
 
   #clearButton {
     padding: 10px;
     min-width: 100px;
+    border-style: none;
+    border-radius: 2px;
+  }
+
+  #clearButton:hover,
+  #clearButton:focus {
+    background-color: rgb(99, 58, 133);
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    border-style: none;
+    border-radius: 2px;
   }
