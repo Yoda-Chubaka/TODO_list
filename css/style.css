@@ -17,7 +17,7 @@ ul {
   
   /* прибрати традиційний маркер на початку списку */
   /* Крок 3 нижче тут */
-  li {
+li {
     list-style-type: none;
     background-color: #eee;
     border: 1px solid #c3c3c3;
@@ -87,7 +87,7 @@ ul {
     text-decoration: line-through;
   }
   
-  input[type="text"] {
+  .todo-text-input {
     font-size: 18px;
     width: 646px;
     padding: 10.3px;
@@ -102,7 +102,7 @@ ul {
     border-radius: 2px;
   }
   
-  input[type="button"] {
+  .todo-button-input {
     font-size: 1.2em;
     margin: -6px 4px 0px 0px;
   }
